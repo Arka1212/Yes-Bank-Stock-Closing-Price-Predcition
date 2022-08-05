@@ -55,12 +55,12 @@ Below is the perfomance graph of KNN model based on predicted and actual output.
 
 All the models are evaluated on the basis of following evaluation metrics.
 
-![image](https://user-images.githubusercontent.com/85817763/179199771-ec7fc99b-729e-484e-a6bb-db114a7f7392.png)
+![image](https://user-images.githubusercontent.com/85817763/183074627-4bd7e7c8-c6a5-4d17-9f57-c23c8aa11666.png)
 
 ## Conclusions
 
-* Independent variables(input variable) have a very high influence on dependent variable(target variable).
-* The accuracy for each model is more than 95%.
-* In this case, Linear Regression has given the best results with lowest MAE, MSE, RMSE and MAPE scores out of all.
-* KNN performed the worst out of all.
-* As we know that, lasso regression automatically selects only those features that are useful and hence discarded some features when applied in this case, whereas     in this case all the features were important for prediction purpose so it ended up giving poor results.
+*  Independent variables(input variable) have a very high influence on dependent variable(target variable).
+*   The accuracy for each model is more than 95%.
+*  In this case, Linear Regression has given the best results with lowest MSE and RMSE and highest R square value scores out of all.
+*  KNN performed the worst out of all.
+*  As we know that, lasso regression automatically selects only those features that are useful and hence discarded some features when applied in this case, whereas in this case all the features were important for prediction purpose so it ended up giving poor results.
