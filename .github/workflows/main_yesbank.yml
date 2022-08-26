@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'yesbank'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E9892ABC462849908C0EAF0F3782F78C }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D40198CBF8F5471AB114CB568EEE9FFE }}
